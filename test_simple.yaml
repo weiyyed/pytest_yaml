@@ -1,0 +1,9 @@
+my_get_request:
+  body:
+    url: https://httpbin.org/get
+    data:
+      keyword: cucumber
+  setup:
+    print: setup step
+  expected:
+    keyword: cucumber
